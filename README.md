@@ -7,9 +7,7 @@ An extension to the current image downloader that allows users to download Faceb
 1. Run `bundle install`
 2. Run `sudo apt-get install screen`
 3. Change "storage" variables to the path of your desired storage location in app.rb and downloader.rb
-
 	E.g.
-	
 	```ruby
 		storage = "your/desired/path"
 	```
