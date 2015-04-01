@@ -2,7 +2,7 @@
 require 'httpclient'
 
 ## Load file
-storage = '/home/damilola/Downloads/img'
+storage = '/home/damilola/Downloads/img' # Should be changed to desired strage location
 file_name = File.join(storage, "images.txt")
 unless File.exist? file_name
 	puts "File not found"

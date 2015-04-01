@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'json'
 
-storage = '/home/damilola/Downloads/img'
+storage = '/home/damilola/Downloads/img' # Should be changed to desired strage location
 file_name = File.join(storage, 'images.txt')
 
 get '/' do
